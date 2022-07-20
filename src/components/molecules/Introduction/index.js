@@ -5,7 +5,7 @@ const Introduction = () => {
   return (
     <div className="container-intro">
       <div className="icon-bitmap justify-content-end flex ">
-        <img src={bitmap} />
+        <img src={bitmap} alt="bitmap" />
       </div>
       <div className="container-intro-text text-right font-semibold">
         <span className=" text-primary">Deffinition; </span>
