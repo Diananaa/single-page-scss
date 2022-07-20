@@ -1,0 +1,30 @@
+@import '../../../styles/main.scss';
+.container-intro {
+    font-size: 21px;
+    height: 500px;
+    @include responsiveWithoutPadding(tablet) {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+.container-intro-text {
+    padding-left: 32px;
+    padding-right: 32px;
+    @include responsiveWithoutPadding(tablet) {
+        padding-right: 98px;
+        padding-left: 213px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.icon-bitmap {
+    height: 158px;
+    margin-bottom: 63px;
+}
+
+.brand {
+    margin-top: 20px;
+}

@@ -1,0 +1,69 @@
+@import "../abstract/_variables.scss";
+* {
+    font-family: $work-sans;
+}
+
+// font weight
+.font-light {
+    font-weight: 300;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-extrabold {
+    font-weight: 800;
+}
+
+// font-size
+.text-xs {
+    font-size: $text-xs;
+    line-height: 1rem;
+}
+
+.text-sm {
+    font-size: $text-sm;
+    line-height: 1.25rem;
+}
+
+.text-base {
+    font-size: $text-base;
+    line-height: 1.5rem;
+}
+
+.text-lg {
+    font-size: $text-lg;
+    line-height: 1.75rem;
+}
+
+// color
+.text-primary {
+    color: $primary
+}
+
+.text-secondary {
+    color: $secondary;
+}
+
+.text-black {
+    color: #000;
+}
+
+//Font Style
+.italic {
+    font-style: italic;
+}
+
+// Text Align
+.text-right {
+    text-align: right;
+}

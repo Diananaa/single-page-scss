@@ -1,0 +1,20 @@
+@mixin responsive($perangkat) {
+    padding-left: 32px;
+    padding-right: 32px;
+    @if $perangkat==tablet {
+        @media(min-width: 1025px) {
+            padding-left: 213px;
+            padding-right: 213px;
+            @content
+        }
+    }
+}
+
+;
+@mixin responsiveWithoutPadding($perangkat) {
+    @if $perangkat==tablet {
+        @media(min-width: 1025px) {
+            @content
+        }
+    }
+}

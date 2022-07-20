@@ -1,0 +1,8 @@
+@import '../../../styles/main.scss';
+header {
+    height: 67px;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    @include responsive(tablet) {}
+}

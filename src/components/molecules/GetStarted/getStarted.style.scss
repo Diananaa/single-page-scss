@@ -1,0 +1,46 @@
+@import '../../../styles/main.scss';
+.container {
+    height: 731.43px;
+    background-image: url('../../../assets/Background/BG_1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $third;
+    position: relative;
+    top: -40px;
+    z-index: 1;
+    height: 630px;
+    @include responsive(tablet) {
+        height: 768px;
+    }
+}
+
+.container-title {
+    padding-top: 107px;
+    padding-bottom: 67px;
+}
+
+.title-getStarted {
+    font-size: 52px;
+    @include responsive(tablet) {
+        font-size: 62px;
+    }
+}
+
+.btn-get-started-position {
+    position: relative;
+    top: 260px;
+}
+
+.desc-getStarted {
+    font-size: 16px;
+    margin-top: 20px;
+    @include responsive(tablet) {
+        font-size: 21px;
+    }
+}
+
+.img-bitmap {
+    width: 184px;
+    height: 305px;
+}

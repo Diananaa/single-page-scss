@@ -1,0 +1,24 @@
+.btn-next {
+    background-color: white;
+    z-index: 4;
+    position: relative;
+    border-radius: 100%;
+    border-width: 0;
+    margin-left: 16px;
+    width: 33px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-get-started {
+    width: 231px;
+    height: 58px;
+    font-size: 16px;
+    border-radius: 29px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
