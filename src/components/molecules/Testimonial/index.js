@@ -25,7 +25,7 @@ const Testimonial = ({ data }) => {
     <>
       <div className="bg-black-testimonial" />
       <div className="container-testimonial">
-        <img src={bgOval2} className="bgOval2" />
+        <img src={bgOval2} className="bgOval2" alt="icon" />
         <p className="title-testimonial text-secondary text-lg font-extrabold">
           Testimonial
         </p>
@@ -34,7 +34,7 @@ const Testimonial = ({ data }) => {
 
         {/* window tablet */}
         {matches && (
-          <div ref={navigationPrevRef}>
+          <div className="next-icon" ref={navigationPrevRef}>
             <BtnPrev />
           </div>
         )}
@@ -64,7 +64,7 @@ const Testimonial = ({ data }) => {
 
         {/* window tablet */}
         {matches && (
-          <div className="next-icon" ref={navigationNextRef}>
+          <div className="next-icon text-secondary" ref={navigationNextRef}>
             <BtnNext />
           </div>
         )}

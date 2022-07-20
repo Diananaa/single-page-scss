@@ -21,9 +21,8 @@
 
 .next-icon {
     position: relative;
-    display: flex;
-    justify-content: end;
     bottom: 75px;
+    z-index: 3;
 }
 
 .container-scroll {
